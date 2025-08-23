@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Macondo", cursive;
+
+}
+
+.container {
+    background: linear-gradient(135deg,red,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    background-color: bisque;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.9);
+}
+
+.logo {
+    width: 200px;
+    object-fit: contain;
+}
+
+h1 {
+    color: rgb(9, 0, 128);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid, #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.9);
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.9s ease-in-out;
+    color: antiquewhite;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.9);
+}
+
+button:hover {
+    background-color: black;
+}
